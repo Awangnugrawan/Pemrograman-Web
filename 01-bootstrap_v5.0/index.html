@@ -18,7 +18,7 @@
 </head>
 
 
-<body style="height: 2000px;">
+<body style="height:1700px; ">
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -39,12 +39,12 @@
     </nav>
     <!-- END NAVBAR-->
 
-    <br><br>
+
     <div id="profile">
         <center>
             <h1>My Profile</h1>
             <br>
-            <img src=" asset/img01.jpg" alt="Awang" style="width: 200px;" class="rounded-circle img-thumbnail">
+            <img src=" Asset/img01.jpg" alt="Awang" style="width: 200px;" class="rounded-circle img-thumbnail">
             <h1>Awang Mulya Nugrawan</h1>
             <h3> Nim: H071201027 <br>
                 Jurusan: Sistem Informasi
@@ -60,11 +60,15 @@
 
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            My personal contact
-        </button>
+        <center>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                My personal contact
+            </button>
+        </center>
+
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade container" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -85,7 +89,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- end modal -->
 
 
     </div>
@@ -93,91 +97,99 @@
 
     <!-- class project -->
     <div id="project">
-        <br><br>
-        <h1 class="text-center">My Project</h1>
-        <br>
-        <div class="d-flex justify-content-around">
 
-            <div class="card" style="width: 18rem;">
-                <img src="Asset\img02.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">HTML</h5>
-                    <p class="card-text">HTML is the standard markup language for Web pages. With HTML you can
-                        create
-                        your
-                        own Website.
-                        HTML is easy to learn - You will enjoy it!</p>
-                    <a href="https://www.w3schools.com/html/" class="btn btn-primary">Go to learn</a>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">My Project</h1>
                 </div>
             </div>
 
 
-            <div class="card" style="width: 18rem;">
-                <img src="Asset\img03.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">CSS</h5>
-                    <p class="card-text">CSS is the language we use to style an HTML document.
-                        CSS describes how HTML elements should be displayed.This tutorial will teach you CSS from
-                        basic
-                        to advanced.</p>
-                    <a href="https://www.w3schools.com/css/" class="btn btn-primary">Go to learn</a>
+            <div class="row">
+                <div class="col-md-4 mb-3 ">
+                    <div class="card">
+                        <img src=" Asset\img02.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">HTML is the standard markup language for Web pages. With HTML you
+                                can
+                                create
+                                your
+                                own Website.
+                                HTML is easy to learn - You will enjoy it!</p>
+                            <a href="https://www.w3schools.com/html/" class="btn btn-primary">Go to learn</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src=" Asset\img03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">CSS is the language we use to style an HTML document.
+                                CSS describes how HTML elements should be displayed.This tutorial will teach you CSS
+                            </p>
+                            <a href="https://www.w3schools.com/css/" class="btn btn-primary">Go to learn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="Asset\img04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap </h5>
+                            <p class="card-text">Get started with Bootstrap, the world’s most popular framework for
+                                building
+                                responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
+                            <a href="https://getbootstrap.com/" class="btn btn-primary">Go to learn</a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class="card" style="width: 18rem;">
-                <img src="Asset\img04.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Bootstrap </h5>
-                    <p class="card-text">Get started with Bootstrap, the world’s most popular framework for building
-                        responsive, mobile-first sites, with jsDelivr and a template starter page.</p>
-                    <a href="https://getbootstrap.com/" class="btn btn-primary">Go to learn</a>
-                </div>
-            </div>
         </div>
-
 
 
     </div>
     <!-- end class project -->
 
 
-
     <!-- Class contact -->
     <div id="contact">
-        <br><br>
+
         <h1 class="text-center"> Contact My </h1>
         <form class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <label for="inputName" class="form-label">name</label>
                 <input type="text" class="form-control" id="inputName" placeholder="">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <label for="inputAddress" class="form-label">Address </label>
                 <input type="text" class="form-control" id="inputAddress2" placeholder="">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-7">
                 <label for="inputnumber" class="form-label">Number Phone</label>
                 <input type="number" class="form-control" id="inputCity">
                 <div class="col-12">
 
                 </div>
-                <div class="col-12">
+                <div class="col-12 mt-4 ">
                     <button type="submit" class="btn btn-primary">Sign in</button>
                 </div>
         </form>
-        <br><br>
+
 
     </div>
-    <br><br><br><br><br>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#a2d9ff" fill-opacity="1"
-            d="M0,96L48,128C96,160,192,224,288,208C384,192,480,96,576,64C672,32,768,64,864,80C960,96,1056,96,1152,128C1248,160,1344,224,1392,256L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-    </svg>
+
     <!-- end class contact -->
 
     <!-- Optional JavaScript; choose one of the two! -->

@@ -1,15 +1,21 @@
 #profile {
     padding-top: 2rem;
     background-color: skyblue;
+    padding: 60px;
 
 }
 
 #project {
     padding-top: 2rem;
-    background-color: steelblue;
+    margin-bottom: 50px;
+    padding: 50px;
+
+
 }
 
 #contact {
     padding-top: 2rem;
-    background-color: rgb(31, 91, 139);
+    background-color: skyblue;
+    padding: 50px;
+
 }
